@@ -96,7 +96,7 @@
 	pinctrl-0 = <&rmii_pe_pins>;
 	pinctrl-names = "default";
 	phy-handle = <&ext_rmii_phy>;
-	phy-mode = "rmii-id";
+	phy-mode = "rmii";
 	phy-supply = <&reg_vcc_3v3>;
 	status = "okay";
 };
