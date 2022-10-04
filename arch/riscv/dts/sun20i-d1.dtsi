@@ -303,7 +303,7 @@
 			
 			/omit-if-no-ref/
 			uart2_pd3_rts_cts_pins: uart2-pd3-rts-cts-pins {
-				pins = "PD3, "PD4";
+				pins = "PD3", "PD4";
 				function = "uart2";
 			};
 			
