@@ -328,6 +328,24 @@
 	};
 };
 
+&uart2 {
+	pinctrl-0 = <&uart2_pd1_pins>, <&uart2_pd3_rts_cts_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&uart3 {
+	pinctrl-0 = <&uart3_pb6_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
+&uart5 {
+	pinctrl-0 = <&uart5_pb4_pins>;
+	pinctrl-names = "default";
+	status = "okay";
+};
+
 &usb_otg {
 	dr_mode = "otg";
 	status = "okay";
