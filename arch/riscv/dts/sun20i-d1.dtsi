@@ -607,7 +607,6 @@
 			fifo-size = <256>;
 			interrupts = <20 IRQ_TYPE_LEVEL_HIGH>;
 			rs485-rts-delay = < 0x00 0x00 >;
-			rs485-rts-active-low;
 			rts-gpio =  <&gpio 3 5 GPIO_ACTIVE_LOW>; /* PD5 */
 			linux,rs485-enabled-at-boot-time;
 			status = "disabled";
@@ -627,7 +626,6 @@
 			fifo-size = <256>;
 			interrupts = <21 IRQ_TYPE_LEVEL_HIGH>;
 			rs485-rts-delay = < 0x00 0x00 >;
-			rs485-rts-active-low;
 			rts-gpio =  <&gpio 1 2 GPIO_ACTIVE_LOW>; /* PB2 */
 			linux,rs485-enabled-at-boot-time;
 			status = "disabled";
@@ -663,7 +661,6 @@
 			fifo-size = <256>;
 			interrupts = <23 IRQ_TYPE_LEVEL_HIGH>;
 			rs485-rts-delay = < 0x00 0x00 >;
-			rs485-rts-active-low;
 			rts-gpio =  <&gpio 1 3 GPIO_ACTIVE_LOW>; /* PB3 */
 			linux,rs485-enabled-at-boot-time;
 			status = "disabled";
