@@ -329,7 +329,7 @@
 };
 
 &uart2 {
-	pinctrl-0 = <&uart2_pd1_pins>;
+	pinctrl-0 = <&uart2_pd1_pins>, <&uart2_pd3_rts_cts_pins>;
 	pinctrl-names = "default";
 	status = "okay";
 };
