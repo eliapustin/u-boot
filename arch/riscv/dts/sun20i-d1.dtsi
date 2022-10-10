@@ -626,7 +626,7 @@
 			fifo-size = <256>;
 			interrupts = <21 IRQ_TYPE_LEVEL_HIGH>;
 			rs485-rts-delay = < 0x00 0x00 >;
-			rts-gpio =  <&gpio 1 2 GPIO_ACTIVE_LOW>; /* PB2 */
+			rts-gpio =  <&gpio 1 2 GPIO_ACTIVE_HIGH>; /* PB2 */
 			linux,rs485-enabled-at-boot-time;
 			status = "disabled";
 		};
